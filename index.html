@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nawaz Malkani — WordPress &amp; Frontend Developer</title>
+  <meta name="description" content="WordPress Developer, Frontend Developer &amp; Freelancer. Building fast, scalable, real-world web solutions." />
+  <link rel="icon" type="image/png" href="data:image/png;base64,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" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo-link" aria-label="Nawaz Malkani">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABQAFADASIAAhEBAxEB/8QAHQABAAIDAQADAAAAAAAAAAAAAAEHAgYIAwQFCf/EAC8QAAEDAwMDAwMCBwAAAAAAAAEAAgMEBREGITEHEkETUWEIInEyQhQjM1KBgrH/xAAaAQEBAAMBAQAAAAAAAAAAAAAABQIEBgMB/8QAKREAAQMDAQcEAwAAAAAAAAAAAQACAwQRIUEFEjFRYXGBIqHB8BMVsf/aAAwDAQACEQMRAD8A/M3konKcL1WakcqCUQ7oiKc7ISozlEU5UZROERCnCHhERBwmNkTdEQjhMYU+Ve/RzoLYepNjigutdcLJfq+nkq7ZUtcx9LURNeWOPYW5JjcMPaHZw5rhytylpJax/wCOIZWzBTvqXbkfFUP7Itir9GVunddjTF8gfR1sFfHRVMbTuMyNaXNPkFru5p4IIK6T+p/6ObZ0f0ZFqjSFRX3OipZzFc4bm9sr4o3HDJmdjWjtB+1wIOO5p4ykdJLIx7wMM48x4UietgpZY4Znbrnmw78vuq5SpKGa4OlbA0OdFE+Z4LgPtaMu55OPHKymts8FJDUva0Ry92Gh4L29pAJc3loOdiQAd8Zwr+6Y9K6x2iW6hu10qbO6saXUNFRQQML4SMd8ncw5D98N8t3PIWu6EuY1PY7zW3SKCnjtkRM1VDGImPcXs7T2tw0PMYqWu7QA9vIJAKoHZhbGx8hILwSLjQefPZaz9pResxeoNIB7nGOecd1TKZyFOBtgdo8A+PhQSoaroQiJhEXrS00tZM2KFhkkcdgP+/AXQFTq6p0Z0J0VW22SF10tteZKeoxn03d8gdj4cCWkcEfgKpblZarTOm6cPp5IaquZ69Q8t3ji9RzGMJ8DuYSfcuaPAXyrvqmmqem9nskchkqIHl72AHDPucdz77hdJREUImDzuvMeNMktIA669PC245TThwHEj5BV99Shauu+krJ1HskQi1BZXRG4UjB3SSQxvDnxkDdzo8FzTy5hI/tCsnqf9SlFT9T6ezVdTBW6J1NZIZGufh8DJXOkAcc7dkjSGO/DT4K5K6J3nU9v1K5mmrbXXhkwDainoWFwGOHl36Wke7iB8reb7pTR9krpLtrS4ipMJc2l0tZqlssdPlxc5ktS0FrR3Oc70ou8jJGQFWbXtfEKqIBshI3r4FxxPKzgcgZvwGq4yt2T+yqwag3a0Ot03re4IBB7r7ebXd86l6lu9XbIxRaZo4hTxVsw7YIgD9zwP3HAAa0bADf2VUa51rRy0I07YYo2WSEMa6dzB31D2n+pke+ACeSAPbJ2kdUKfXNwFqlhprFp2ljzR2qD+XDI7P79/uON8EnPknhU285e78lT9o1r5adjg/e3i7OulwBoM9yANMKrDQwwlrWjDbWHz1P3qsfPumModkyVyqpos4niOVjnt72hwJbnkLHAO6HC+g2yitKy9Q6GCx0lvutqo73Sxd/oh8oY+PJHdw5j4+7Yloc5pILgBlRLrrS9veJqDR9hE7mjLbgx9YICCQBG3uLXAjDiZN8kgHtAVW7lSSThVH7Rle0BwBt0H9tf3R3q4rftRdZtQ32i/gTWPZbx+mjgjbTUoHxBFhp/2J/C0apq5qyT1JpXSvxgFx4HsBwB8BeXuPCbYWhJNJKbvN1iAGiwUEZ2O6k84TlOF4rJQeUPCeEPCIn+UHCe6eERPCZQcqTsiIDlM4PKjKZCIpzsoxsnCfKIiE5/CIeERf/Z" alt="NM Logo" class="logo-img" width="44" height="44" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about"      class="mob-link">About</a>
+      <a href="#skills"     class="mob-link">Skills</a>
+      <a href="#projects"   class="mob-link">Projects</a>
+      <a href="#experience" class="mob-link">Experience</a>
+      <a href="#contact"    class="mob-link">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+      <div class="grid-lines"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge"><span class="badge-dot"></span> Available for opportunities</div>
+      <h1 class="hero-name">Nawaz<br /><span class="hero-gradient">Malkani</span></h1>
+      <div class="hero-role-wrap">
+        <span class="role-prefix">I build as a&nbsp;</span>
+        <span class="typing-container">
+          <span id="typed-text" class="typed-word"></span><span class="cursor-blink">|</span>
+        </span>
+      </div>
+      <p class="hero-tagline">Crafting fast, scalable, and visually refined web experiences — from WordPress storefronts to computer vision systems.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
+        <a href="resume.pdf" class="btn btn-outline" target="_blank" rel="noopener"><i class="fa-solid fa-download"></i> Resume</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/nawazmalkani"          target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nawazmalkani" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://wa.me/919725386262"               target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:nawazmalkani01@gmail.com"          aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="scroll-hint"><span>Scroll</span><div class="scroll-line"></div></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">Building with purpose,<br /><em>deploying with precision.</em></h2>
+          <p>I'm a motivated IT student and developer with hands-on experience across WordPress development, full-stack web solutions, and computer vision systems. My work spans from crafting high-converting WooCommerce stores to building real-time object detection pipelines.</p>
+          <p>I obsess over performance, scalability, and clean code — writing solutions that not only work today but grow with your business. Whether it's a pixel-perfect landing page or an ANPR toll-plaza system, I focus on outcomes that matter.</p>
+          <div class="ai-badge-strip">
+            <div class="ai-badge-icon"><i class="fa-solid fa-microchip"></i></div>
+            <span>AI-augmented workflow — I actively use <strong>GitHub Copilot, ChatGPT &amp; Claude</strong> to ship faster and smarter, treating AI as a power tool, not a shortcut.</span>
+          </div>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Live Projects</span></div>
+            <div class="stat"><span class="stat-num">2</span><span class="stat-label">Internships</span></div>
+            <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Tech Stacks</span></div>
+          </div>
+        </div>
+        <div class="about-card-wrap">
+          <div class="about-card glass reveal">
+            <div class="ac-icon"><i class="fa-brands fa-wordpress"></i></div>
+            <div><strong>WordPress Specialist</strong><p>Elementor, WooCommerce, custom themes &amp; plugin configuration.</p></div>
+          </div>
+          <div class="about-card glass reveal">
+            <div class="ac-icon"><i class="fa-solid fa-eye"></i></div>
+            <div><strong>Computer Vision</strong><p>Python · OpenCV · YOLOv3-Tiny for real-time detection systems.</p></div>
+          </div>
+          <div class="about-card glass reveal">
+            <div class="ac-icon"><i class="fa-solid fa-bolt"></i></div>
+            <div><strong>Performance Focused</strong><p>SEO-ready, fast-loading, mobile-first across every build.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title">Technologies I work with</h2>
+      <div class="skills-grid">
+        <div class="skill-group glass reveal">
+          <div class="sg-header"><i class="fa-solid fa-code"></i><span>Web Development</span></div>
+          <div class="skill-pills">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill featured">WordPress</span>
+            <span class="pill featured">WooCommerce</span>
+            <span class="pill">Elementor</span>
+          </div>
+        </div>
+        <div class="skill-group glass reveal">
+          <div class="sg-header"><i class="fa-solid fa-brain"></i><span>Computer Vision</span></div>
+          <div class="skill-pills">
+            <span class="pill featured">Python</span>
+            <span class="pill featured">OpenCV</span>
+            <span class="pill">YOLOv3-Tiny</span>
+            <span class="pill">ANPR</span>
+          </div>
+        </div>
+        <div class="skill-group glass reveal">
+          <div class="sg-header"><i class="fa-solid fa-toolbox"></i><span>Tools &amp; AI Workflow</span></div>
+          <div class="skill-pills">
+            <span class="pill">Git</span>
+            <span class="pill featured">GitHub</span>
+            <span class="pill ai-pill"><i class="fa-solid fa-microchip"></i> GitHub Copilot</span>
+            <span class="pill ai-pill"><i class="fa-solid fa-microchip"></i> ChatGPT</span>
+            <span class="pill ai-pill"><i class="fa-solid fa-microchip"></i> Claude AI</span>
+            <span class="pill">VS Code</span>
+          </div>
+        </div>
+        <div class="skill-group glass reveal">
+          <div class="sg-header"><i class="fa-solid fa-layer-group"></i><span>Other Skills</span></div>
+          <div class="skill-pills">
+            <span class="pill">SEO</span>
+            <span class="pill">Networking Fundamentals</span>
+            <span class="pill">OS Installation</span>
+            <span class="pill">Video Editing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-title">Things I've built</h2>
+      <div class="projects-grid">
+        <div class="project-card glass reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-store"></i></div>
+            <div class="project-links">
+              <a href="#" class="icon-btn" title="Live Site"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3>Lovely Bakery</h3>
+          <p>A live WordPress bakery website featuring a beautiful product catalogue, responsive design, and optimised page load performance to boost customer engagement.</p>
+          <div class="project-tags"><span>WordPress</span><span>Elementor</span><span>SEO</span></div>
+        </div>
+        <div class="project-card glass reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-shirt"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/nawazmalkani" class="icon-btn" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Maharaja Attire</h3>
+          <p>A fully functional WooCommerce fashion e-commerce store with product filtering, cart management, payment gateway integration, and custom styling.</p>
+          <div class="project-tags"><span>WordPress</span><span>WooCommerce</span><span>PHP</span></div>
+        </div>
+        <div class="project-card glass reveal">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-tooth"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/nawazmalkani" class="icon-btn" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>SmileCare Dental</h3>
+          <p>Professional dental clinic website with online appointment booking, service pages, and Google Maps integration — optimised for local SEO.</p>
+          <div class="project-tags"><span>WordPress</span><span>Elementor</span><span>Local SEO</span></div>
+        </div>
+        <div class="project-card glass reveal">
+          <div class="project-top">
+            <div class="project-icon project-icon--ai"><i class="fa-solid fa-video"></i></div>
+            <div class="project-links">
+              <span class="proj-ai-tag"><i class="fa-solid fa-microchip"></i> AI / CV</span>
+              <a href="https://github.com/nawazmalkani" class="icon-btn" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Object Detection System</h3>
+          <p>Real-time object detection pipeline using Python, OpenCV, and YOLOv3-Tiny. Deployed in a toll-plaza ANPR context, processing live video feeds with high accuracy.</p>
+          <div class="project-tags"><span>Python</span><span>OpenCV</span><span>YOLOv3</span><span>ANPR</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-label">04 — Experience</div>
+      <h2 class="section-title">Where I've worked</h2>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card glass">
+            <div class="tl-meta">
+              <div class="tl-co-wrap">
+                <div class="tl-co-icon" style="background:linear-gradient(135deg,#6c63ff,#a78bfa)"><i class="fa-solid fa-eye"></i></div>
+                <span class="tl-company">Rudra Technocare</span>
+              </div>
+              <span class="tl-badge">Internship</span>
+            </div>
+            <div class="tl-role">Software Developer Intern</div>
+            <ul class="tl-list">
+              <li>Built real-time object detection systems using Python, OpenCV &amp; YOLOv3-Tiny.</li>
+              <li>Developed an ANPR solution for toll plaza automation.</li>
+              <li>Collaborated on computer vision pipeline optimisation for live video streams.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card glass">
+            <div class="tl-meta">
+              <div class="tl-co-wrap">
+                <div class="tl-co-icon" style="background:linear-gradient(135deg,#38bdf8,#6c63ff)"><i class="fa-brands fa-wordpress"></i></div>
+                <span class="tl-company">FinTax24</span>
+              </div>
+              <span class="tl-badge">Internship</span>
+            </div>
+            <div class="tl-role">WordPress Developer Intern</div>
+            <ul class="tl-list">
+              <li>Developed and maintained WordPress websites with focus on UI/UX improvements.</li>
+              <li>Implemented performance optimisations — faster load times, better Core Web Vitals.</li>
+              <li>Managed on-page SEO, plugin configurations, and content updates.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card glass">
+            <div class="tl-meta">
+              <div class="tl-co-wrap">
+                <div class="tl-co-icon" style="background:linear-gradient(135deg,#f472b6,#a78bfa)"><i class="fa-solid fa-palette"></i></div>
+                <span class="tl-company">Mohit Agrawal</span>
+              </div>
+              <span class="tl-badge">Internship</span>
+            </div>
+            <div class="tl-role">Social Media &amp; Design</div>
+            <ul class="tl-list">
+              <li>Created engaging content and handled social media branding strategy.</li>
+              <li>Produced video edits, reels, and promotional creatives for multiple platforms.</li>
+              <li>Managed end-to-end visual identity and content calendar.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- EDUCATION -->
+      <div class="edu-row">
+        <div class="section-label" style="margin-top:3.5rem;">Education</div>
+        <div class="edu-cards">
+          <div class="edu-card glass reveal">
+            <div class="edu-icon" style="background:linear-gradient(135deg,#6c63ff,#38bdf8)"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="edu-info">
+              <strong>B.Tech — Information Technology</strong>
+              <span class="edu-uni">Gyanmanjari University</span>
+              <span class="edu-pill pursuing">Pursuing</span>
+            </div>
+          </div>
+          <div class="edu-card glass reveal">
+            <div class="edu-icon" style="background:linear-gradient(135deg,#a78bfa,#6c63ff)"><i class="fa-solid fa-scroll"></i></div>
+            <div class="edu-info">
+              <strong>Diploma — Information Technology</strong>
+              <span class="edu-uni">Parul University · 2025</span>
+              <span class="edu-pill cgpa">CGPA 6.71</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label">05 — Contact</div>
+      <h2 class="section-title">Let's work together</h2>
+      <p class="contact-sub">Have a project in mind or want to discuss an opportunity? Drop me a message — I respond fast.</p>
+      <div class="contact-grid">
+        <div class="contact-info-col">
+          <a href="mailto:nawazmalkani01@gmail.com" class="contact-item glass reveal">
+            <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div><strong>Email</strong><span>nawazmalkani01@gmail.com</span></div>
+            <i class="fa-solid fa-arrow-right ci-arrow"></i>
+          </a>
+          <a href="tel:+919725386262" class="contact-item glass reveal">
+            <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+            <div><strong>Phone</strong><span>+91 97253 86262</span></div>
+            <i class="fa-solid fa-arrow-right ci-arrow"></i>
+          </a>
+          <div class="contact-socials reveal">
+            <a href="https://github.com/nawazmalkani"          target="_blank" rel="noopener" class="soc-btn"><i class="fa-brands fa-github"></i><span>GitHub</span></a>
+            <a href="https://www.linkedin.com/in/nawazmalkani" target="_blank" rel="noopener" class="soc-btn"><i class="fa-brands fa-linkedin-in"></i><span>LinkedIn</span></a>
+            <a href="https://wa.me/919725386262"               target="_blank" rel="noopener" class="soc-btn whatsapp"><i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span></a>
+          </div>
+          <div class="avail-strip glass reveal">
+            <span class="avail-dot"></span>
+            <span><strong>Open to work</strong> — Full-time · Freelance · Remote</span>
+          </div>
+        </div>
+        <div class="contact-cta glass reveal">
+          <div class="cta-emoji">👋</div>
+          <h3>Ready to start a conversation?</h3>
+          <p>Whether it's a new project, a freelance opportunity, or just a quick chat about web development — I'm all ears.</p>
+          <div class="cta-actions">
+            <a href="mailto:nawazmalkani01@gmail.com" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Send an Email</a>
+            <a href="https://wa.me/919725386262" target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp Me</a>
+          </div>
+          <p class="cta-note"><i class="fa-regular fa-clock"></i>&nbsp; Typical reply time: within 24 hours</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <a href="#hero" class="logo-link" aria-label="Home">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCABQAFADASIAAhEBAxEB/8QAHQABAAIDAQADAAAAAAAAAAAAAAEHAgYIAwQFCf/EAC8QAAEDAwMDAwMCBwAAAAAAAAEAAgMEBREGITEHEkETUWEIInEyQhQjM1KBgrH/xAAaAQEBAAMBAQAAAAAAAAAAAAAABQIEBgMB/8QAKREAAQMDAQcEAwAAAAAAAAAAAQACAwQRIUEFEjFRYXGBIqHB8BMVsf/aAAwDAQACEQMRAD8A/M3konKcL1WakcqCUQ7oiKc7ISozlEU5UZROERCnCHhERBwmNkTdEQjhMYU+Ve/RzoLYepNjigutdcLJfq+nkq7ZUtcx9LURNeWOPYW5JjcMPaHZw5rhytylpJax/wCOIZWzBTvqXbkfFUP7Itir9GVunddjTF8gfR1sFfHRVMbTuMyNaXNPkFru5p4IIK6T+p/6ObZ0f0ZFqjSFRX3OipZzFc4bm9sr4o3HDJmdjWjtB+1wIOO5p4ykdJLIx7wMM48x4UietgpZY4Znbrnmw78vuq5SpKGa4OlbA0OdFE+Z4LgPtaMu55OPHKymts8FJDUva0Ry92Gh4L29pAJc3loOdiQAd8Zwr+6Y9K6x2iW6hu10qbO6saXUNFRQQML4SMd8ncw5D98N8t3PIWu6EuY1PY7zW3SKCnjtkRM1VDGImPcXs7T2tw0PMYqWu7QA9vIJAKoHZhbGx8hILwSLjQefPZaz9pResxeoNIB7nGOecd1TKZyFOBtgdo8A+PhQSoaroQiJhEXrS00tZM2KFhkkcdgP+/AXQFTq6p0Z0J0VW22SF10tteZKeoxn03d8gdj4cCWkcEfgKpblZarTOm6cPp5IaquZ69Q8t3ji9RzGMJ8DuYSfcuaPAXyrvqmmqem9nskchkqIHl72AHDPucdz77hdJREUImDzuvMeNMktIA669PC245TThwHEj5BV99Shauu+krJ1HskQi1BZXRG4UjB3SSQxvDnxkDdzo8FzTy5hI/tCsnqf9SlFT9T6ezVdTBW6J1NZIZGufh8DJXOkAcc7dkjSGO/DT4K5K6J3nU9v1K5mmrbXXhkwDainoWFwGOHl36Wke7iB8reb7pTR9krpLtrS4ipMJc2l0tZqlssdPlxc5ktS0FrR3Oc70ou8jJGQFWbXtfEKqIBshI3r4FxxPKzgcgZvwGq4yt2T+yqwag3a0Ot03re4IBB7r7ebXd86l6lu9XbIxRaZo4hTxVsw7YIgD9zwP3HAAa0bADf2VUa51rRy0I07YYo2WSEMa6dzB31D2n+pke+ACeSAPbJ2kdUKfXNwFqlhprFp2ljzR2qD+XDI7P79/uON8EnPknhU285e78lT9o1r5adjg/e3i7OulwBoM9yANMKrDQwwlrWjDbWHz1P3qsfPumModkyVyqpos4niOVjnt72hwJbnkLHAO6HC+g2yitKy9Q6GCx0lvutqo73Sxd/oh8oY+PJHdw5j4+7Yloc5pILgBlRLrrS9veJqDR9hE7mjLbgx9YICCQBG3uLXAjDiZN8kgHtAVW7lSSThVH7Rle0BwBt0H9tf3R3q4rftRdZtQ32i/gTWPZbx+mjgjbTUoHxBFhp/2J/C0apq5qyT1JpXSvxgFx4HsBwB8BeXuPCbYWhJNJKbvN1iAGiwUEZ2O6k84TlOF4rJQeUPCeEPCIn+UHCe6eERPCZQcqTsiIDlM4PKjKZCIpzsoxsnCfKIiE5/CIeERf/Z" alt="NM Logo" class="logo-img logo-img--sm" width="36" height="36" />
+      </a>
+      <span class="footer-copy">© 2025 Nawaz Malkani — Built with ❤️</span>
+      <a href="#hero" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
